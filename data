@@ -4,38 +4,8 @@ ACCESS_TOKEN = 'abdejkls12ap4dfololjnbdgs3dvfaa'
 
 workoutId": '219453846'
 
- token = 'abdejkls12ap4dfololjnbdgs3dvfaa'
+token = 'abdejkls12ap4dfololjnbdgs3dvfaa'
 https://api.netpulse.com/np/workouts-partner/v1.0/exercisers/d471432d-0821-47f2-b2b5-8636ffb280d0/workouts?categoryId=12&modifiedAt=%5B2018-01-01T00%3A00%3A00Z%2C%202018-12-31T23%3A59%3A59Z%5D&page=1&limit=1000
 
 
- def test_workoutById(self):
-        apiItem = ServerApi()
-        self.assertEqual(200, apiItem.workoutByWorkoutId('abdejkls12ap4dfololjnbdgs3dvfaa', ''))
-
-
-
-
-
-
-import unittest
-from .WorkoutApi import ServerApi
-
-
-class Test(unittest.TestCase):
-   def test_workoutById(self):
-        #apiItem = ServerApi()
-        self.assertEqual(200, 5 + 5)
-
-
-if __name__ == '__main__':
-    unittest.main()
-
-
-     def test_workoutById1(self):
-       api = ServerApi()
-       self.assertEqual(200, api.workoutByWorkoutId('abdejkls12ap4dfololjnbdgs3dvfaa', '219453846').status_code)
-
-   def test_workoutById2(self):
-         api = ServerApi()
-         self.assertEqual(200, api.workoutByWorkoutId('abdejkls12ap4dfololjnbdgs3dvfaa', '2194846').status_code)
 
